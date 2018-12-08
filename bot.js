@@ -14,7 +14,7 @@ const log = message => {
 };
 
 client.on("ready", () => {
-  client.user.setGame(prefix + "yardım | Güncellemelerden Bot Bazen Çevirim Dışı Ola Bilir! | ClawBot.tk") 
+  client.user.setGame(prefix + "yardım | Güncellemelerden Bot Bazen Çevirim Dışı Olabilir! |") 
   console.log("Bağlandım!")   
 });
 
